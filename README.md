@@ -41,6 +41,7 @@ A second-level question that may be answered differently depending on the design
 https://en.wikipedia.org/wiki/Emergence
 
 [MIT Project on Emergent Behavior --old page via Internet Archive](https://tinyurl.com/contents-emergence)
+
 https://github.com/sklise/conways-game-of-life
 
 
@@ -54,5 +55,6 @@ How does an individual “ant” know where it is?
 These we might address with a centralized larger computer, a “beacon” that emits some form of sound or light signal, or perhaps (we didn’t discuss this one) we build a table or “play field” or “terrarium” for the bots that has directional signs/signals built in.  
 
 #### Minimum viable product: 
-(1) swarm knows its own members and moves together 
+(1) swarm knows its own members and moves together
+
 (2) swarm responds to stimuli and acts on its own
