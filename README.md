@@ -4,7 +4,7 @@
 
 ### April 22, 2017: Arduino Robot Library as a model
 
-[Arduino Robot Library](https://www.arduino.cc/en/Reference/RobotLibrary) has some interesting features, and since it incorporates several libraries into itself as a memory-saving strategy, it might be worth looking at its architecture and functions.  
+[Arduino Robot Library](https://www.arduino.cc/en/Reference/RobotLibrary) https://github.com/arduino-libraries/Robot_Control has some interesting features, and since it incorporates several libraries into itself as a memory-saving strategy, it might be worth looking at its architecture and functions.  
 
 I am thinking the Swarm Bots could be programmed for certain "modes" following the example sketches of the Robot Library.  For instance: 
 
