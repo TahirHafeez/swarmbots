@@ -6,13 +6,13 @@
 
 I am thinking the Swarm Bots could be programmed for certain "modes" following the example sketches of the Robot Library.  For instance: 
 
-### Line Following - draw a racing track and get your robot to run on it
-### Disco Bot - turn your robot into an 8-bit jukebox and dance to the beat
-### Compass - plan a treasure hunt with this digital compass
+### Line Following - draw a racing track and get robot to run on it
+### Disco Bot - turn robot into an 8-bit jukebox and dance to the beat
+### Compass - plan a treasure hunt with digital compass
 #### ...
-### Runaway Robot - play tag with your robot using a distance sensor
+### Runaway Robot - play tag with robot using a distance sensor
 ### Remote control - reuse that old tv-remote to command the bot on distance
-### Rescue - train your robot to look for hidden pearls in a maze
+### Rescue - train robot to look for hidden pearls in a maze
 #### ...
 > "This library enables easy access to the functionality of the Arduino Robot. It relies on a number of 3rd party libraries 
 > including Fat16, EasyTransfer, Squawk, and IRRemote. It also relies on a number of Arduino libraries like TFT, SPI, and Wire. 
