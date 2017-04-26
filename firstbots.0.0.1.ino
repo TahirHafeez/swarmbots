@@ -1,5 +1,5 @@
-//ANTs.v.1.0.1 a swarming bots project
-//April 2017
+//v.1.0.1 of a swarming bots project
+//April 25, 2017
 //this sketch is for a quick prototype
 
 #include <IRremote.h> // Include the IRremote library
