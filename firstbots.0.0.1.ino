@@ -1,4 +1,4 @@
-//v.1.0.1 of a swarming bots project
+//v.0.0.1 of a swarming bots project
 //April 25, 2017
 //this sketch is for a quick prototype
 
@@ -8,7 +8,7 @@
 programming behaviors, and since there are 9 variables, that might suffice 
 for the needs of individual ANTs */
 #define NUM_BUTTONS 9 // The remote has 9 buttons
-/* Define the IR remote button codes. As hexidecimel each one 
+/* Define the IR remote button codes. As hexidecimal each one 
    should actually have 0x10EF in front of it.*/
 const uint16_t BUTTON_POWER = 0xD827; // i.e. 0x10EFD827
 const uint16_t BUTTON_A = 0xF807;  //0x10EFF807
