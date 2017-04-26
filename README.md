@@ -1,14 +1,15 @@
 # swarmbots: a diy arduino swarm
 
+#
+#
+#
 
-
+## Notes and documentation journal of build process
 ### April 22, 2017: Arduino Robot Library as a model
-
 [Arduino Robot Library](https://www.arduino.cc/en/Reference/RobotLibrary) and
 (https://github.com/arduino-libraries/Robot_Control) has some interesting features, and since it incorporates several libraries into itself as a memory-saving strategy, it might be worth looking at its architecture and functions.  
 
-I am thinking the Swarm Bots could be programmed for certain "modes" following the example sketches of the Robot Library.  For instance: 
-
+The Swarm Bots could be programmed for certain "modes" following the example sketches of the Robot Library.  For instance: 
 #### Line Following - draw a racing track and get robot to run on it
 #### Disco Bot - turn robot into an 8-bit jukebox and dance to the beat
 #### Compass - plan a treasure hunt with digital compass
@@ -23,21 +24,16 @@ I am thinking the Swarm Bots could be programmed for certain "modes" following t
 
 
 ### April 10, 2017: Update and first pcbs
-
 At this point I think the bots will send constant lights/signal from each side, and I have been using [the navigation light systems of boats and planes as a model](https://en.wikipedia.org/wiki/Navigation_light)
 
 ### April 4, 2017: Rethinking motion and form of robots
-
 [This video](https://vimeo.com/173159398) has several fascinating designs that challenge the “default” methods of rendering motion for bots, and even present new modes of structuring the frames and chassis.
 
 ### April 4, 2017: Communication and Data Needs of this Swarm's Emergent Behavior 
-
 We are starting with [hardware tutorials from sparkfun](https://learn.sparkfun.com/tutorials/ir-control-kit-hookup-guide) and are going to lean heavily on [Ken Shirriff's excellent and easily hacked IRRemote library]
 (http://www.righto.com/2009/08/multi-protocol-infrared-remote-library.html)
 
-I want to spend time working on defining the problem of what exactly the ANTS need to know before we get to the challenges of building actual hardware or software.  In other words, I think we should prototype with paper, pencils, plotting general “gamified” possibilities that allow us to model and test ideas; for this we'll sketch, draw, and describe; also, we should set up cardboard or paper mock-ups that allow us to move the bots in swarms, viewing a model of the system in a simplified form.  
-
-As we do this, the goal will be to better understand the data needs of the bots;  what does a bot need to know?  And, what does the swarm of bots need to do?  Don’t we need to decide what the swarm is going to do, not in the sense of performing a programmed action but at least in a general sense of knowing what range of possibilities exist for the swarm, in order to decide what each bot needs to know?  Or, could we program the bots without knowing the swarm’s range of possibilities? 
+As the first prototypes are built from paper and cardboard the goal will be to better understand the data needs of the bots; for instance: what does a single bot need to know?  And, what does the swarm of bots need to do?  Do we need to decide what the swarm is going to do, not in the sense of performing a programmed action but at least in a general sense of knowing what range of possibilities exist for the swarm, in order to decide what each bot needs to know?  Or, could the bots be programmed without knowing the swarm’s range of possibilities, and then functionality would be added? 
 
 A second-level question that may be answered differently depending on the design we arrive at:  Does the swarm of bots as a whole, in doing one or another thing, achieve its own “understanding”?   
 
@@ -49,7 +45,6 @@ https://github.com/sklise/conways-game-of-life
 
 
 ### March 24, 2017: Swarm Project Plan and Brainstorm
-
 We want the project to use minimal hardware and keep expenses low, so probably using a simple vibro motor for locomotion is better than servos or other dc motors.
 
 The main problem to address is location:
